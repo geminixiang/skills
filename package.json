@@ -1,0 +1,29 @@
+{
+  "name": "pi-cicd-status",
+  "version": "0.0.1",
+  "description": "Pi coding agent skill for checking CI/CD status from GitHub check runs, workflow runs, branches, PRs, commits, and releases",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geminixiang/pi-cicd-status.git"
+  },
+  "readme": "README.md",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-skill",
+    "ci",
+    "cd",
+    "github-actions",
+    "cicd"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-ai": "*",
+    "@mariozechner/pi-tui": "*"
+  }
+}
